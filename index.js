@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
-app.get("/news/get", async (req, res) => {
+app.get("/", async (req, res) => {
     res.send("Welcome")
 });
 
